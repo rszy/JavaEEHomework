@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise_3</title>
+</head>
+<body>
+<h4>Formularz sprawdzania poprawności dodawania</h4>
+<form method="post" action="CalculateServlet">
+    <table>
+        <tr>
+            <td><input type="text"	name="number1" placeholder="0"></td>
+            <td>
+                <select id="options" name="options">
+                    <option selected="selected" value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/modulo</option>
+                </select>
+            </td>
+            <td><input type="text"	name="number2" placeholder="0"></td>
+            <td>=</td>
+            <td><input type="text"	name="result" placeholder="0"></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <input type="submit" value="Sprawdź wynik">
+</form>
+</body>
+</html>
